@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Posts on Etherec0rD</title>
-    <link>http://localhost:1313/posts/</link>
+    <link>https://Etherec0rD.github.io/posts/</link>
     <description>Recent content in Posts on Etherec0rD</description>
     <generator>Hugo -- 0.151.2</generator>
     <language>zh-cn</language>
     <lastBuildDate>Wed, 22 Oct 2025 00:44:32 +0800</lastBuildDate>
-    <atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://Etherec0rD.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>每日一家发行商🥳</title>
-      <link>http://localhost:1313/posts/daily-publisher/</link>
+      <link>https://Etherec0rD.github.io/posts/daily-publisher/</link>
       <pubDate>Wed, 22 Oct 2025 00:44:32 +0800</pubDate>
-      <guid>http://localhost:1313/posts/daily-publisher/</guid>
+      <guid>https://Etherec0rD.github.io/posts/daily-publisher/</guid>
       <description>&lt;h1 id=&#34;001---raw-fury&#34;&gt;001 - Raw Fury&lt;/h1&gt;
 &lt;h3 id=&#34;1-publisher-introduction&#34;&gt;1. Publisher Introduction&lt;/h3&gt;
 &lt;p&gt;&lt;strong&gt;Raw Fury&lt;/strong&gt; 是一家总部位于瑞典斯德哥尔摩的独立游戏发行商。&lt;br&gt;
@@ -57,9 +57,9 @@ Raw Fury向我们证明了，一个发行商最有价值的资产，不是资金
     </item>
     <item>
       <title>G - 独立游戏发行圣经📖</title>
-      <link>http://localhost:1313/posts/publish-of-indie-game-inside/</link>
+      <link>https://Etherec0rD.github.io/posts/publish-of-indie-game-inside/</link>
       <pubDate>Tue, 21 Oct 2025 01:05:50 +0800</pubDate>
-      <guid>http://localhost:1313/posts/publish-of-indie-game-inside/</guid>
+      <guid>https://Etherec0rD.github.io/posts/publish-of-indie-game-inside/</guid>
       <description>&lt;h2 id=&#34;p1-磨砺眼力看得准才能走得远&#34;&gt;P1 磨砺“眼力”——看得准，才能走得远&lt;/h2&gt;
 &lt;h3 id=&#34;眼力就是品味和判断力是所有工作的基础&#34;&gt;“眼力”，就是品味和判断力,是所有工作的基础&lt;/h3&gt;
 &lt;ol&gt;
@@ -180,9 +180,9 @@ Steamworks后台的每一个设置选项&lt;br&gt;
     </item>
     <item>
       <title>体验-创造-重复</title>
-      <link>http://localhost:1313/posts/my-first-article/</link>
+      <link>https://Etherec0rD.github.io/posts/my-first-article/</link>
       <pubDate>Sun, 19 Oct 2025 22:02:21 +0800</pubDate>
-      <guid>http://localhost:1313/posts/my-first-article/</guid>
+      <guid>https://Etherec0rD.github.io/posts/my-first-article/</guid>
       <description>&lt;h2 id=&#34;人生的意义&#34;&gt;人生的意义&lt;/h2&gt;
 &lt;p&gt;心血来潮想写个专属于自己的博客，却不知溯源该拉回思绪至何方。&lt;br&gt;
 大抵是那日黄昏洗浴时沉思存在主义：人生在世总得留下些什么 吗？证据还是传说？&lt;br&gt;

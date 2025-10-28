@@ -95,7 +95,8 @@ Annapurna Interactive隶属于美国著名电影公司 Annapurna Pictures ，于
         }
 
     </style>
-</noscript><meta property="og:url" content="https://Etherec0rD.github.io/posts/daily-publisher/">
+</noscript><link rel="stylesheet" href="/css/aPlayer.min.css">
+<script src="/js/aPlayer.min.js"></script><meta property="og:url" content="https://Etherec0rD.github.io/posts/daily-publisher/">
   <meta property="og:site_name" content="Etherec0rD">
   <meta property="og:title" content="每日一家发行商🥳">
   <meta property="og:description" content="001 - Raw Fury 1. Publisher Introduction Raw Fury 是一家总部位于瑞典斯德哥尔摩的独立游戏发行商。
@@ -663,7 +664,28 @@ Chucklefish的成功，源于他们深入开发者社区（如TIGSource论坛）
 </ol>
 <p><strong>官网链接:</strong> <a href="https://chucklefish.org/">https://chucklefish.org/</a></p>
 <hr>
+<div id="my-music-player"></div>
+<script>
+    const ap = new APlayer({
+        container: document.getElementById('my-music-player'),
 
+        /* 迷你模式 */
+        // mini: true,
+
+        /* 吸底模式 */
+        fixed: true,
+
+        audio: [
+          {
+            name: 'Elysian',  // 歌曲名
+            artist: 'Sessions:Diana',          // 作者名
+            url: '/music/Elysian.mp3',   // 音乐文件的路径
+            cover: '/MusicCover.jpg',  // 封面图的路径
+          }
+          // ... 你可以添加任意多首歌，这就是“歌单”！
+        ]
+    });
+</script>
 
   </div>
 

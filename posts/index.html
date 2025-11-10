@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html lang="en" dir="auto">
+
+<head><meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="robots" content="index, follow">
+<title>Posts | Etherec0rD</title>
+<meta name="keywords" content="">
+<meta name="description" content="Posts - Etherec0rD">
+<meta name="author" content="Sansui">
+<link rel="canonical" href="https://Etherec0rD.github.io/posts/">
+<link crossorigin="anonymous" href="/assets/css/stylesheet.626fe35312f1941d4ed7b88a7324fc526ff5e6a7c122e0f819df957516cf613d.css" integrity="sha256-Ym/jUxLxlB1O17iKcyT8Um/15qfBIuD4Gd&#43;VdRbPYT0=" rel="preload stylesheet" as="style">
+<link rel="icon" href="https://Etherec0rD.github.io/favicon.ico">
+<link rel="icon" type="image/png" sizes="16x16" href="https://Etherec0rD.github.io/favicon-16x16.png">
+<link rel="icon" type="image/png" sizes="32x32" href="https://Etherec0rD.github.io/favicon-32x32.png">
+<link rel="apple-touch-icon" href="https://Etherec0rD.github.io/apple-touch-icon.png">
+<link rel="mask-icon" href="https://Etherec0rD.github.io/safari-pinned-tab.svg">
+<meta name="theme-color" content="#2e2e33">
+<meta name="msapplication-TileColor" content="#2e2e33">
+<link rel="alternate" type="application/rss+xml" href="https://Etherec0rD.github.io/posts/index.xml" title="rss">
+<link rel="alternate" hreflang="en" href="https://Etherec0rD.github.io/posts/">
+<noscript>
+    <style>
+        #theme-toggle,
+        .top-link {
+            display: none;
+        }
+
+    </style>
+    <style>
+        @media (prefers-color-scheme: dark) {
+            :root {
+                --theme: rgb(29, 30, 32);
+                --entry: rgb(46, 46, 51);
+                --primary: rgb(218, 218, 219);
+                --secondary: rgb(155, 156, 157);
+                --tertiary: rgb(65, 66, 68);
+                --content: rgb(196, 196, 197);
+                --code-block-bg: rgb(46, 46, 51);
+                --code-bg: rgb(55, 56, 62);
+                --border: rgb(51, 51, 51);
+            }
+
+            .list {
+                background: var(--theme);
+            }
+
+            .list:not(.dark)::-webkit-scrollbar-track {
+                background: 0 0;
+            }
+
+            .list:not(.dark)::-webkit-scrollbar-thumb {
+                border-color: var(--theme);
+            }
+        }
+
+    </style>
+</noscript><link rel="stylesheet" href="/css/aPlayer.min.css">
+<script src="/js/aPlayer.min.js"></script><meta property="og:url" content="https://Etherec0rD.github.io/posts/">
+  <meta property="og:site_name" content="Etherec0rD">
+  <meta property="og:title" content="Posts">
+  <meta property="og:description" content="关于独立游戏开发与发行的思考">
+  <meta property="og:locale" content="zh-cn">
+  <meta property="og:type" content="website">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="Posts">
+<meta name="twitter:description" content="关于独立游戏开发与发行的思考">
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position":  1 ,
+      "name": "Posts",
+      "item": "https://Etherec0rD.github.io/posts/"
+    }
+  ]
+}
+</script>
+</head>
+
+<body class="list" id="top">
+<script>
+    if (localStorage.getItem("pref-theme") === "dark") {
+        document.body.classList.add('dark');
+    } else if (localStorage.getItem("pref-theme") === "light") {
+        document.body.classList.remove('dark')
+    } else if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
+        document.body.classList.add('dark');
+    }
+
+</script>
+
+<header class="header">
+    <nav class="nav">
+        <div class="logo">
+            <a href="https://Etherec0rD.github.io/" accesskey="h" title="Etherec0rD (Alt + H)">Etherec0rD</a>
+            <div class="logo-switches">
+                <button id="theme-toggle" accesskey="t" title="(Alt + T)" aria-label="Toggle theme">
+                    <svg id="moon" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+                    </svg>
+                    <svg id="sun" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <circle cx="12" cy="12" r="5"></circle>
+                        <line x1="12" y1="1" x2="12" y2="3"></line>
+                        <line x1="12" y1="21" x2="12" y2="23"></line>
+                        <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+                        <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+                        <line x1="1" y1="12" x2="3" y2="12"></line>
+                        <line x1="21" y1="12" x2="23" y2="12"></line>
+                        <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+                        <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+                    </svg>
+                </button>
+            </div>
+        </div>
+        <ul id="menu">
+            <li>
+                <a href="https://Etherec0rD.github.io/archives/" title="归档">
+                    <span>归档</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://Etherec0rD.github.io/search/" title="搜索">
+                    <span>搜索</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://Etherec0rD.github.io/tags/" title="标签">
+                    <span>标签</span>
+                </a>
+            </li>
+        </ul>
+    </nav>
+</header>
+<main class="main"> 
+<header class="page-header">
+  <h1>
+    Posts
+  </h1>
+</header>
+
+<article class="post-entry"> 
+  <header class="entry-header">
+    <h2 class="entry-hint-parent">每日一家发行商🥳
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>001 - Raw Fury 1. Publisher Introduction Raw Fury 是一家总部位于瑞典斯德哥尔摩的独立游戏发行商。
+他们成立于2015年，以其极其“开发者友好”的理念和强烈的品牌个性而闻名。
+他们不称自己为“Publisher”，而是自称为“Unpublisher”，
+以此来强调他们与传统发行商压榨开发者模式的决裂。
+2. Representative Games Kindom系列: 这是他们最早、也是最成功的系列之一。
+一款极简主义美学、氛围驱动的2D横版策略/模拟经营游戏。 Call of the Sea: 一款色彩明亮的、上世纪30年代风格的第一人称叙事解谜游戏。 Backbone: 一款美术风格惊艳的、关于黑色侦探故事的像素叙事冒险游戏。 Sable: 一款艺术风格极其独特（莫比斯漫画启发） 以探索和“滑行”为核心的开放世界游戏。 Norco: 一款文笔极佳、探讨美国南部哥特式、赛博朋克和衰败主题的点击式冒险游戏。 3. Publishing Style Raw Fury的风格就是他们的理念。
+开发者至上: 给予开发者极高的创作自由和非常透明、公平的分成协议（通常是50/50）。 艺术与情感优先: 专注于那些具有独特艺术风格、深刻情感和创新玩法的游戏。
+他们不怕发行那些“慢热型”或“小众”的作品，只要这些作品足够特别。 品牌即理念: 营销重点往往是宣传“Unpublisher”哲学，以此吸引理念相合的开发者和玩家。 4. Interesting Facts 他们著名的“Unpublisher”理念，不仅仅是口号。他们真的会为开发者的心理健康提供支持，并有一个“Raw Fury 热线”，开发者在遇到困难时可以匿名寻求帮助。 他们曾发行过一款名为《The Last Night》的游戏，其开发者后来发表了一些争议性言论。Raw Fury公开表示，他们虽然不支持这些言论，但他们捍卫开发者表达的权利（即使是他们不同意的），并会继续支持游戏的开发。这件事在业内引发了巨大讨论，完美诠释了他们“开发者优先”的立场。 5. What to learn 这是我们需要学习的核心：如何将“发行理念”本身塑造成一个强大的品牌。
+Raw Fury向我们证明了，一个发行商最有价值的资产，不是资金，而是“信任”。
+来自开发者的信任，和来自玩家的信任。
+他们用“Unpublisher”的姿态，成功吸引到了全球最有才华的一批创作者。需要学习他们是如何为那些“慢热型”的艺术游戏（如《Sable》）提供长线的支持和耐心，并通过这种方式，最终在玩家心中建立起一个“Raw Fury出品，必属精品”的坚实口碑。
+官网链接: https://rawfury.com/
+002 - Annapurna Interactive 1. Publisher Introduction Annapurna Interactive隶属于美国著名电影公司 Annapurna Pictures ，于2016年创立。
+它以发行那些注重叙事、艺术性高、且具有独特创意的独立游戏而闻名，
+凭借其毒辣的选品眼光和对开发者创作自由的尊重，
+迅速在业界建立了“独立游戏精品店”和“游戏界A24”的顶级口碑。
+...</p>
+  </div>
+  <footer class="entry-footer"><span title='2025-10-22 00:44:32 +0800 CST'>October 22, 2025</span>&nbsp;·&nbsp;<span>7 min</span>&nbsp;·&nbsp;<span>Sansui</span></footer>
+  <a class="entry-link" aria-label="post link to 每日一家发行商🥳" href="https://Etherec0rD.github.io/posts/daily-publisher/"></a>
+</article>
+
+<article class="post-entry"> 
+  <header class="entry-header">
+    <h2 class="entry-hint-parent">G - 独立游戏发行圣经📖
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>P1 磨砺“眼力”——看得准，才能走得远 “眼力”，就是品味和判断力,是所有工作的基础 像“拆解师”一样玩游戏，而不只是“玩家”: 行动: 严格执行讨论过的“发行人分析框架”
+每周至少选择一款新游戏或热门游戏，写一份完整的“产品分析备忘录”
+把它变成职业肌肉记忆
+目标: 30分钟内，清晰说出游戏的核心循环、情感钩子、目标用户和市场差异化优势
+成为“信息枢纽”，而不是“信息接收者”: 行动: 每日必修: 每天30分钟快速浏览 GamesIndustry.biz, GameLook, 游戏葡萄
+了解行业动态、人事变动、市场趋势
+每周精读: 每周至少看一个 GDC Vault 上关于市场营销或商业的演讲视频
+每月复盘: 每月选择一个成功的（或失败的）游戏发行案例
+用“反向工程法”，从首曝到发售，完整地追踪并拆解它的宣发节奏和关键动作
+目标: 让大脑里装着一张鲜活的“行业地图”
+当别人还在讨论“发生了什么”，要开始思考“为什么会发生”以及“接下来会发生什么”
+P2 修炼“手腕”——做得好，才能立得住 “手腕”，就是执行能力和专业技能，是将“眼力”变现的唯一途径 成为“工具大师”: 行动: 主动去学习和精通发行工作链路上的一切基础工具
+Steamworks后台的每一个设置选项
+社媒运营工具和数据分析后台、Discord社区搭建与机器人管理
+目标: 当需要执行任务时，不是去问“怎么做”
+而是能立刻说出“我知道，用A工具可以实现B效果，C工具效率更高”
+“写作”是核心武器: 行动: 争取一切可以写的机会
+无论是商店页面文案、给媒体的新闻稿、社区公告，还是给开发者的周报
+都用心去写，写完后主动寻求反馈和修改
+目标: 训练自己能用精准、有感染力的文字
+清晰地向不同对象传递信息，并激发他们行动
+主动建立“人脉节点”: 行动: 多参加线下的开发者沙龙、Game Jam
+在线上，真诚地去和开发者、媒体老师、其他发行同行交朋友
+不要抱着功利心，而是抱着学习和好奇心。 听听他们的故事、他们的困难
+目标: 通讯录，应该是一个由“鲜活的人”组成的网络，而不是一堆冷冰冰的联系方式
+P3 铸就“心法”——有信念，才能走得稳 “心法”，就是职业哲学和底层思维，决定了能走多高、多远 树立“服务者”心态: 认知: 发行工作本质是“服务”
+服务于开发者，帮助他们实现创作愿景
+服务于玩家，为他们发现和带来好游戏。放下身段，保持谦逊
+拥抱“数据”，但相信“品味”: 认知: 数据（愿望单、转化率、留存率）能帮助我们做出更科学的决策，避免盲目
+但数据无法告诉你一款游戏是否“伟大”
+在关键时刻，敢于相信自己通过千锤百炼的“眼力”所形成的直觉和品味
+...</p>
+  </div>
+  <footer class="entry-footer"><span title='2025-10-21 01:05:50 +0800 CST'>October 21, 2025</span>&nbsp;·&nbsp;<span>1 min</span>&nbsp;·&nbsp;<span>Sansui</span></footer>
+  <a class="entry-link" aria-label="post link to G - 独立游戏发行圣经📖" href="https://Etherec0rD.github.io/posts/publish-of-indie-game-inside/"></a>
+</article>
+
+<article class="post-entry"> 
+  <header class="entry-header">
+    <h2 class="entry-hint-parent">体验-创造-重复
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>人生的意义 心血来潮想写个专属于自己的博客，却不知溯源该拉回思绪至何方。
+大抵是那日黄昏洗浴时沉思存在主义：人生在世总得留下些什么 吗？证据还是传说？
+基因、模因哪个更为重要？消逝后，证据无从考究传说如何流传？
+时间、宇宙之浩瀚无穷，所有的意义都会归于热寂。
+既然如此，追寻意义本就是无意义之事云云。
+上次和小草小花谈心是在几时？是否仍对烟火的绽放充满兴趣？
+结果、永恒就能代表意义吗？那么死亡为何存在且赋予生意义？
+意义，或许不是一个需要被储藏起来等待永恒审判的“物品”，
+而是一种在此时此地被体验到的“状态”。
+意义就在体验之中。体验，意义的现在。虚无，意义的终点。
+虚无主义，虽然你也同样美丽，但我们还是保持距离罢～
+A 2 B - 传说还是证据？处处未见处处见。
+体验的长跑 期待博客上瘾，我并非躺平的人，感谢饕餮的精神食粮。
+</p>
+  </div>
+  <footer class="entry-footer"><span title='2025-10-19 22:02:21 +0800 CST'>October 19, 2025</span>&nbsp;·&nbsp;<span>1 min</span>&nbsp;·&nbsp;<span>Sansui</span></footer>
+  <a class="entry-link" aria-label="post link to 体验-创造-重复" href="https://Etherec0rD.github.io/posts/my-first-article/"></a>
+</article>
+    </main>
+    
+<footer class="footer">
+        <span>&copy; 2025 <a href="https://Etherec0rD.github.io/">Etherec0rD</a></span> · 
+
+    <span>
+        Powered by
+        <a href="https://gohugo.io/" rel="noopener noreferrer" target="_blank">Hugo</a> &
+        <a href="https://github.com/adityatelange/hugo-PaperMod/" rel="noopener" target="_blank">PaperMod</a>
+    </span>
+</footer>
+<a href="#top" aria-label="go to top" title="Go to Top (Alt + G)" class="top-link" id="top-link" accesskey="g">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 6" fill="currentColor">
+        <path d="M12 6H0l6-6z" />
+    </svg>
+</a>
+
+<script>
+    let menu = document.getElementById('menu')
+    if (menu) {
+        menu.scrollLeft = localStorage.getItem("menu-scroll-position");
+        menu.onscroll = function () {
+            localStorage.setItem("menu-scroll-position", menu.scrollLeft);
+        }
+    }
+
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener("click", function (e) {
+            e.preventDefault();
+            var id = this.getAttribute("href").substr(1);
+            if (!window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView({
+                    behavior: "smooth"
+                });
+            } else {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView();
+            }
+            if (id === "top") {
+                history.replaceState(null, null, " ");
+            } else {
+                history.pushState(null, null, `#${id}`);
+            }
+        });
+    });
+
+</script>
+<script>
+    var mybutton = document.getElementById("top-link");
+    window.onscroll = function () {
+        if (document.body.scrollTop > 800 || document.documentElement.scrollTop > 800) {
+            mybutton.style.visibility = "visible";
+            mybutton.style.opacity = "1";
+        } else {
+            mybutton.style.visibility = "hidden";
+            mybutton.style.opacity = "0";
+        }
+    };
+
+</script>
+<script>
+    document.getElementById("theme-toggle").addEventListener("click", () => {
+        if (document.body.className.includes("dark")) {
+            document.body.classList.remove('dark');
+            localStorage.setItem("pref-theme", 'light');
+        } else {
+            document.body.classList.add('dark');
+            localStorage.setItem("pref-theme", 'dark');
+        }
+    })
+
+</script>
+</body>
+
+</html>
